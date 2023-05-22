@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt install python
+pkg install python
 
 # Install requests library for Python
 
