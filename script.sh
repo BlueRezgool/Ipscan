@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt install python
+
 # Install requests library for Python
 
 pip install requests
