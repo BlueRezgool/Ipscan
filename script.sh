@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pkg upgrade
+
 pkg install python
 
 # Install requests library for Python
