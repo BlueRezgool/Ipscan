@@ -12,7 +12,7 @@ pip install requests
 
 echo 'import requests
 
-url= "https://api.github.com/repos/vfarid/cf-clean-ips/contents/list.txt"
+url= "https://raw.githubusercontent.com/vfarid/cf-clean-ips/main/list.txt"
 
 response = requests.get(url)
 
