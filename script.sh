@@ -55,8 +55,9 @@ echo -e "${RED}#######
 read delayvar
 cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
 echo -e "${RED}
-### You can change your VPN ip address with above IPs
-### Now ### 
-You can Search a new IP just by typing bellow command and press Enter button :
+### You can change your VPN IP address using the IPs listed above.
+### ###
+Now, you can search for a new IP by typing the command below and then pressing the Enter button.
+
 ${NC}python ip.py && cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
 ${RED} ### to gain the best IP Addresses IP  ${NC}"
