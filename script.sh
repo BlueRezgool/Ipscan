@@ -54,9 +54,9 @@ echo -e "${RED}#######
 > In Error situations , repeat instruction ${NC}"
 read delayvar
 cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
-echo -e "${RED} ### Now ###
-You can just type :
-${NC}python ip.py ${RED}
-Then type :
-${NC} cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
+echo -e "${RED}
+### You can change your VPN ip address with above IPs
+### Now ### 
+You can Search a new IP just by typing bellow command and press Enter button :
+${NC}python ip.py && cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
 ${RED} ### to gain the best IP Addresses IP  ${NC}"
