@@ -51,10 +51,10 @@ python ip.py
 # Execute cfscanner with ipad.txt
 echo -e "${RED}#######
 > Turn off your VPN and then press any key and Enter...
-> In Error situations , repeat instruction ${NC}'
+> In Error situations , repeat instruction ${NC}"
 read delayvar
 cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
-echo -e '${RED} 
+echo -e "${RED} 
 You can type 
 ${NC}python ip.py ${RED}
 Then 
