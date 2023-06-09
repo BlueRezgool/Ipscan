@@ -54,9 +54,9 @@ echo -e "${RED}#######
 > In Error situations , repeat instruction ${NC}"
 read delayvar
 cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
-echo -e "${RED} 
-You can type 
+echo -e "${RED} ### Now ###
+You can just type :
 ${NC}python ip.py ${RED}
-Then 
+Then type :
 ${NC} cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
-${RED} now  ${NC}"
+${RED} ### to gain the best Addresses IP  ${NC}"
