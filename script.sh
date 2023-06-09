@@ -1,5 +1,5 @@
 #!/bin/bash
-RED='\033[0;91m'
+RED='\033[0;96m'
 
 NC='\033[0m' # No Color
 
@@ -59,4 +59,4 @@ You can just type :
 ${NC}python ip.py ${RED}
 Then type :
 ${NC} cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
-${RED} ### to gain the best Addresses IP  ${NC}"
+${RED} ### to gain the best IP Addresses IP  ${NC}"
