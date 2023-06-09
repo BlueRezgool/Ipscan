@@ -1,5 +1,7 @@
 #!/bin/bash
-echo '#######\n\n\nTurn On your VPN and then press any key... questins -> press y and enter '
+echo '#######
+> Turn On your VPN and then press any key... 
+> Questions -> press y and enter '
 
 read delayvar
 
@@ -43,6 +45,7 @@ pip install cfscanner --upgrade
 python ip.py
 
 # Execute cfscanner with ipad.txt
-echo '#######\n\n\nTurn off your VPN and then press any key...'
+echo '#######
+> Turn off your VPN and then press any key...'
 read delayvar
 cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
