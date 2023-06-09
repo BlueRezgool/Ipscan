@@ -1,4 +1,8 @@
 #!/bin/bash
+echo '#######\n\n\nTurn On your VPN and then press any key... questins -> press y and enter '
+
+read delayvar
+
 
 pkg upgrade
 
@@ -12,7 +16,7 @@ pip install requests
 
 echo 'import requests
 
-url= ""https://api.github.com/repos/vfarid/cf-clean-ips/contents/list.txt"
+url= "https://api.github.com/repos/vfarid/cf-clean-ips/contents/list.txt"
 
 response = requests.get(url)
 
@@ -39,5 +43,6 @@ pip install cfscanner --upgrade
 python ip.py
 
 # Execute cfscanner with ipad.txt
-
-cfscanner -t 16 -s ./ipad.txt -DS 5 -US 5
+echo '#######\n\n\nTurn off your VPN and then press any key...'
+read delayvar
+cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
