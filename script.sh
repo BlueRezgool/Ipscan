@@ -1,4 +1,5 @@
 #!/bin/bash
+rm script.sh -f
 echo '#######
 > Turn On your VPN and then press any key... 
 > Questions -> press y and enter '
