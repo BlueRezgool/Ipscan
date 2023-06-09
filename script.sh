@@ -49,7 +49,7 @@ pip install cfscanner --upgrade
 python ip.py
 
 # Execute cfscanner with ipad.txt
-echo '${RED}#######
+echo -e '${RED}#######
 > Turn off your VPN and then press any key and Enter...
 > In Error situations , repeat instruction ${NC}'
 read delayvar
