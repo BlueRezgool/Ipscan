@@ -1,8 +1,11 @@
 #!/bin/bash
+RED='\033[0;31m'
 
-echo '#######
-> Turn On your VPN and then press any key... 
-> Questions -> press y and enter '
+NC='\033[0m' # No Color
+
+echo -e '${RED}#######
+> Turn On your VPN and then press any key and Enter... 
+> Questions -> press y and enter ${NC} '
 
 read delayvar
 
@@ -46,7 +49,8 @@ pip install cfscanner --upgrade
 python ip.py
 
 # Execute cfscanner with ipad.txt
-echo '#######
-> Turn off your VPN and then press any key...'
+echo '${RED}#######
+> Turn off your VPN and then press any key and Enter...
+> In Error situations , repeat instruction ${NC}'
 read delayvar
 cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
