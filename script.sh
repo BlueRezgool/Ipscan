@@ -54,3 +54,9 @@ echo -e '${RED}#######
 > In Error situations , repeat instruction ${NC}'
 read delayvar
 cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
+echo -e '${RED} 
+You can type 
+${NC}python ip.py ${RED}
+Then 
+${NC} cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
+${RED} now  ${NC}'
