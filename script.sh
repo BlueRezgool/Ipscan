@@ -60,4 +60,4 @@ echo -e "${RED}
 Now, you can search for a new IP by typing the command below and then pressing the Enter button.
 
 ${NC}python ip.py && cfscanner -t 1 -s ./ipad.txt -DS 200 -US 5
-${RED} ### to gain the best IP Addresses IP  ${NC}"
+${RED} ### to find the best available ones 💊🦄  ${NC}"
